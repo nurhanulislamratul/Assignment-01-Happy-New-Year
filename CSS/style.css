@@ -10,7 +10,7 @@ section{
     margin-bottom: 120px;
 }
 
-/* banner section css */
+/* banner section css  style */
 
 .banner-text h3{
     color: #FFF;
@@ -40,7 +40,7 @@ section{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/BannerImage.png);
 }
 
-/* 60% off section */
+/* 60% off section style */
 
 .discount-text h1{
     color: #F00;
@@ -49,7 +49,7 @@ section{
     font-weight: 700;
     margin-bottom: 48px;
 }
-.discount-text h5 {
+.discount-text p {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -75,4 +75,57 @@ section{
     margin: 0 auto;
     width: 800px;
     height: 500px;
+}
+
+/* midnight party section style */
+
+.midnight-text h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.midnight-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+}
+.btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+}
+.btn{
+    padding-top: 30px;
+    padding-left: 30px;
+    border: none;
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.midnight-text{
+    width: 697px;
+}
+.midnight-area{
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+}
+.midnight-image{
+    width: 320px;
+    height: 465px;
+
+
+}
+#midnight-section{
+    margin-top: 120px;
+    height: 600px;
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/vectorrr.png);
+    border-radius: 20px;
 }
