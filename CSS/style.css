@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
@@ -18,7 +20,6 @@ section {
 .banner-text h3 {
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 }
@@ -239,7 +240,6 @@ section {
 }
 
 .holidays-short-title {
-    font-family: Inter;
     font-weight: 500px;
     margin: 0;
     margin-top: 80px;
@@ -253,7 +253,6 @@ section {
 
 .holidays-max-title {
     color: #F00;
-    font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -262,7 +261,6 @@ section {
 }
 
 .dummy-text-description {
-    font-family: Inter;
     color: rgba(7, 2, 17, 0.60);
 
 }
@@ -292,7 +290,6 @@ section {
 .holiday-area p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 70px;
@@ -382,8 +379,10 @@ section {
 .new-year p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
-    font-family: Lato;
     font-weight: 400;
+}
+.newpik{
+    padding-top: 40px;
 }
 
 .new-year {
@@ -414,7 +413,6 @@ section {
 .holiday-area h1 {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 0;
@@ -424,7 +422,6 @@ section {
 .holiday-area p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 70px;
@@ -474,7 +471,6 @@ section {
 
 .gift-text h3 {
     color: #F00;
-    font-family: Lato;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0;
@@ -482,7 +478,6 @@ section {
 
 .gift-text h1 {
     color: #070211;
-    font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
 }
@@ -505,6 +500,11 @@ section {
     flex-wrap: wrap;
     gap: 20px;
 }
+.imagess :hover{
+    opacity: 1;
+    border: 3px solid orangered;
+    border-radius: 15px;
+}
 
 .six-image {
     margin-top: 120px;
@@ -515,14 +515,12 @@ section {
 .subscribe-item h1{
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
 }
 .subscribe-item p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 20px;
@@ -556,7 +554,7 @@ section {
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
     padding-left: 20px;
-    font-family: Lato;
+
     font-size: 18px;
     font-weight: 400;
 }
@@ -564,7 +562,6 @@ section {
     text-decoration: none;
     color: #FFF;
     text-align: center;
-    font-family: lato;
     font-size: 20px;
     font-weight: 600;
 }
@@ -584,4 +581,48 @@ section {
     margin-top: 120px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+}
+
+/* footer section area Style */
+.f-top-text h2{
+    color: #FFF;
+     font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.f-top-text h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 135px;
+    padding-top: 10px;
+}
+.first-text{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.icon-area{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.last-text h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.last-text{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 710px;
+    margin-top: 120px;
+    background-color:#070211;
+}
+.all-footer-item{
+    padding-top: 100px;
 }
