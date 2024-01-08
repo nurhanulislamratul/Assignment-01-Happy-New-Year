@@ -218,18 +218,22 @@ section {
     align-items: center;
 }
 
-.celebration-image {
-    margin-right: 10px;
-    border-radius: 463px;
-    border: 15px solid #F00;
-
-
+.circle img{
+    margin: center;
+    width: 463px;
+    height: 463px;
 
 }
 
-.uff-new-year {
+.celebration-image {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
 
-    flex: 1;
+.uff-new-year {
+     flex: 1;
     text-align: right;
 
 }
